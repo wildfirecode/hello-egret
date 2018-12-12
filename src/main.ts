@@ -1,3 +1,3 @@
-import HelloPoint2 from "./2/HelloPoint2";
+import ColoredPoints from "./2/ColoredPoints";
 
-HelloPoint2()
+ColoredPoints()
