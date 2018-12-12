@@ -1,19 +1,3 @@
-export default class Main extends egret.DisplayObjectContainer {
-    constructor() {
-        super();
-        this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
-    }
+import HelloPoint2 from "./2/HelloPoint2";
 
-    onAddToStage(event) {
-        let textfield = new egret.TextField();
-        this.addChild(textfield);
-        textfield.textColor = 0xff0000;
-        textfield.text = 'hello world';
-    }
-}
-
-
-window['Main'] = Main;
-
-import runEgret from "./runEgret";
-runEgret();
+HelloPoint2()
