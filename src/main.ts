@@ -1,3 +1,3 @@
-import ColoredPoints from "./2/ColoredPoints";
+import HelloTriangle from "./3/HelloTriangle";
 
-ColoredPoints()
+HelloTriangle()

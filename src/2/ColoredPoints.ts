@@ -23,7 +23,7 @@ export default () => {
     initShaders(gl, VERTEX_SHADER_SOURCE, FRAGMENT_SHADER_SOURCE);
 
     var a_Position = gl.getAttribLocation(gl['program'], 'a_Position');
-    gl.vertexAttrib3f(a_Position, 0, 0, 0);
+    gl.vertexAttrib3f(a_Position, 1, 0, 0);
 
     var u_FragColor = gl.getUniformLocation(gl['program'], 'u_FragColor');
     gl.uniform4f(u_FragColor, 1, 0, 0, 1)
